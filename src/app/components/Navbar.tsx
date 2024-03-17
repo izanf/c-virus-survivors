@@ -1,7 +1,8 @@
 import Image from 'next/image';
 
-import profile from '../images/profile.jpg';
 import logo from '../images/logo.svg';
+
+import Avatar from './Avatar'
 
 const Navbar = () => (
   <nav className="bg-jagger py-4 text-gray" aria-label="Navbar">
@@ -17,9 +18,7 @@ const Navbar = () => (
         <li><a className="font-medium block px-4 py-2" href="/survivors">Survivors</a></li>
         <li><a className="font-medium block px-4 py-2" href="/inventory">Inventory</a></li>
       </ul>
-      <figure className="rounded-full overflow-hidden border-2 border-gray">
-        <Image className="h-8 w-auto" src={profile} alt="John Doe" width={35} height={35} />
-      </figure>
+      <Avatar />
     </div>
   </nav>
 )

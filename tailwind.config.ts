@@ -12,11 +12,15 @@ const config: Config = {
         jagger: '#3E1F47',
         violentViolet: '#312244',
         comet: '#5F5F61',
+        spunPearl: '#A1A0A3',
         bubbles: '#E8F6ED',
         oceanGreen: '#52A86E',
         whiteSmoke: '#EFEFEF',
+        whiteSmokeSecondary: '#F6F6F6',
+        whisper: '#E6E6E6',
         gray: '#FAFAFA',
-        white: '#FFFFFF'
+        haiti: '#222124',
+        white: '#FFFFFF',
       }
     },
   },
