@@ -4,7 +4,7 @@ import profile from '../images/profile.jpg';
 import logo from '../images/logo.svg';
 
 const Navbar = () => (
-  <nav className="bg-purple py-4 text-gray" aria-label="Navbar">
+  <nav className="bg-jagger py-4 text-gray" aria-label="Navbar">
     <div className="flex items-center container mx-auto">
       <div className="flex items-center">
         <figure>

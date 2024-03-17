@@ -9,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        purple: '#3E1F47',
+        jagger: '#3E1F47',
+        violentViolet: '#312244',
+        comet: '#5F5F61',
+        bubbles: '#E8F6ED',
+        oceanGreen: '#52A86E',
+        whiteSmoke: '#EFEFEF',
         gray: '#FAFAFA',
         white: '#FFFFFF'
       }
