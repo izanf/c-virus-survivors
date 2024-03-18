@@ -3,7 +3,7 @@ import Image from 'next/image';
 import profile from '../images/profile-fallback.png';
 
 interface IAvatarProps {
-  src: string
+  src?: string
 }
 
 const Avatar = ({ src }: IAvatarProps) => (
