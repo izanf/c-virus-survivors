@@ -22,6 +22,8 @@ const config: Config = {
         gray: '#FAFAFA',
         haiti: '#222124',
         hotPurple: '#4D194D',
+        roman: '#E45858',
+        cosmos: '#F8D5D5',
         white: '#FFFFFF',
       }
     },
