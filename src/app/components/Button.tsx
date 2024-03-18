@@ -1,6 +1,17 @@
-export default function Button({ children, ...props }: React.ButtonHTMLAttributes<HTMLButtonElement>) {
+type ButtonVariantType = 'default' | 'primary';
+
+interface IButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariantType
+}
+
+const buttonVariants: Record<ButtonVariantType, string> = {
+  default: 'border-whisper text-violentViolet',
+  primary: 'border-hotPurple text-white bg-hotPurple'
+}
+
+export default function Button({ children, variant = 'default', ...props }: IButtonProps) {
   return (
-    <button {...props} className="text-violentViolet font-semibold shadow-sm p-2 border-2 rounded-lg  border-whisper text-sm">
+    <button {...props} className={`font-semibold shadow-sm p-3 border-2 rounded-lg text-sm ${buttonVariants[variant]}`}>
       {children}
     </button>
   )

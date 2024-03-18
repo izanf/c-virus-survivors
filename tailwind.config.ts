@@ -18,8 +18,10 @@ const config: Config = {
         whiteSmoke: '#EFEFEF',
         whiteSmokeSecondary: '#F6F6F6',
         whisper: '#E6E6E6',
+        brightGray: '#5A5C60',
         gray: '#FAFAFA',
         haiti: '#222124',
+        hotPurple: '#4D194D',
         white: '#FFFFFF',
       }
     },

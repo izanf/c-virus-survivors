@@ -1,0 +1,37 @@
+[
+  {
+    "uid": "7568fb87-f902-4639-b752-2142b7939fc6",
+    "name": "Survivor 21",
+    "avatarUrl": "https://picsum.photos/id/1/200/200",
+    "isInfected": true,
+    "createdAt": "2024-03-17 14:23:05"
+  },
+  {
+    "uid": "cbddc454-1675-4df0-ac54-475361580247",
+    "name": "Survivor 36",
+    "avatarUrl": "https://picsum.photos/id/96/200/200",
+    "isInfected": true,
+    "createdAt": "2024-03-17 14:23:05"
+  },
+  {
+    "uid": "599c865e-0059-4f1c-8047-743fb7cc47bc",
+    "name": "Survivor 33",
+    "avatarUrl": "https://picsum.photos/id/72/200/200",
+    "isInfected": false,
+    "createdAt": "2024-03-17 14:23:05"
+  },
+  {
+    "uid": "d55da862-cc38-4711-948e-7adbdc9b0f5c",
+    "name": "Survivor 11",
+    "avatarUrl": "https://picsum.photos/id/85/200/200",
+    "isInfected": true,
+    "createdAt": "2024-03-17 14:23:05"
+  },
+  {
+    "uid": "08613bbc-a696-4ea5-8f6f-6c469c140ea1",
+    "name": "Survivor 4",
+    "avatarUrl": "https://picsum.photos/id/17/200/200",
+    "isInfected": true,
+    "createdAt": "2024-03-17 14:23:05"
+  }
+]
